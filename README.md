@@ -4,7 +4,10 @@ Defines document class `iitkthesis`, to create formatted front matter
 using commands `\maketitle`, `\certificate`, `\declaration` and
 `\abstract` after defining the basic variables `\title`, `\author`,
 `\rollno`, `\degree`, `\department`, `\submissiondate` and a few
-more. Check [`example.pdf`](./example.pdf) for a sample
+more. Check [`example.pdf`](./example.pdf) for a sample.
+
+Implements guidelines in
+[this `thesisguide`](http://www.iitk.ac.in/doaa/data/thesisguide.pdf).
 
 To use, clone the repository, copy [`example.tex`](./example.tex) to
 `thesis.tex` as a boiler plate and update as necessary. Modifying is
@@ -76,3 +79,13 @@ An exhaustive list of variables is as follows:
 + `advisornames`: Names in running text as in --- Alpha, Beta and
   Gamma.
 + `advisenum`: List of advisors names to be used in a list.
+
+## Further Reference ##
+
+1. Procedure: [https://www.iitk.ac.in/doaa/data/Procedure_for_PhD_Thesis_Submission.pdf](https://www.iitk.ac.in/doaa/data/Procedure_for_PhD_Thesis_Submission.pdf)
+2. Guidelines: [http://www.iitk.ac.in/doaa/data/thesisguide.pdf](http://www.iitk.ac.in/doaa/data/thesisguide.pdf)
+3. Thesis Processing Form: [https://www.iitk.ac.in/doaa/data/processing-form.docx](https://www.iitk.ac.in/doaa/data/processing-form.docx)
+4. Upload Link: [https://oag.iitk.ac.in/studoaiitk](https://oag.iitk.ac.in/studoaiitk)
+5. Thesis Processing Cell: [https://iitk.ac.in/doaa/tpc/](https://iitk.ac.in/doaa/tpc/)
+6. Start point to create `iitk-thesis.cls` tex: [http://students.engr.scu.edu/~sschaeck/latexforthesis/](http://students.engr.scu.edu/~sschaeck/latexforthesis/) 
+7. LaTeX cls guide: [http://texdoc.net/texmf-dist/doc/latex/base/clsguide.pdf](http://texdoc.net/texmf-dist/doc/latex/base/clsguide.pdf)
