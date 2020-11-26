@@ -66,7 +66,7 @@ An exhaustive list of variables is as follows:
 + `department`: Name of the Department
 + `submissiondate`: in Month, Year
 + `logo`: The IITK logo importable by `graphicx` package. Vector
-  version available at [`images/logo.pdf`](./images/logo.pdf).
+  version available at [`images/iitk-logo.pdf`](./images/iitk-logo.pdf).
 + `institute`: Full name of the institute.
 + `abbrevinst`: Abbreviated name of the institute.
 + `instaddress`: One line address of the institute.
