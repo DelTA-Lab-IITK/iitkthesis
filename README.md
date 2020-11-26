@@ -3,12 +3,12 @@
 Defines document class `iitkthesis`, to create formatted front matter
 using commands `\maketitle`, `\certificate`, `\declaration` and
 `\abstract` after defining the basic variables `\title`, `\author`,
-`\rollno`, `\degree`, `\department`, `\submissiondate` and a few more.
+`\rollno`, `\degree`, `\department`, `\submissiondate` and a few
+more. Check [`example.pdf`](./example.pdf) for a sample
 
-To use, copy [`iitkthesis.cls`](./iitkthesis.cls) and
-[`images/iitk-logo.pdf`](./images/iitk-logo.pdf) to your local folder
-and use the `\documentclass{iiththesis}`, alike the boilerplate code
-as follows, (also available in [`example.tex`](./example.tex)).
+To use, clone the repository, copy [`example.tex`](./example.tex) to
+`thesis.tex` as a boiler plate and update as necessary. Modifying is
+as simple as follows:
 
 ```tex
 \documentclass{iitkthesis}
