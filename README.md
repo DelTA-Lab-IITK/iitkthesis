@@ -11,8 +11,9 @@ Implements guidelines in
 
 To use, clone the repository, copy [`example.tex`](./example.tex) to
 `thesis.tex` as a boiler plate and update as necessary. Modifying is
-as simple as follows:
+as simple as follows.
 
+## Boilerplate ##
 ```tex
 \documentclass{iitkthesis}
 
@@ -64,6 +65,7 @@ as simple as follows:
 \end{document}
 ```
 
+## List of class variables ##
 An exhaustive list of variables is as follows:
 
 + `rollno`: Candidate Roll No.
@@ -78,7 +80,8 @@ An exhaustive list of variables is as follows:
 + `advisors`: Advisors list as to be publised on the certificate.
 + `advisornames`: Names in running text as in --- Alpha, Beta and
   Gamma.
-+ `advisenum`: List of advisors names to be used in a list.
++ `advisenum`: List of advisors names to be used in a list. Each element
+  in the list starts with `\item`.
 
 ## Further Reference ##
 
