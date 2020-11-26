@@ -5,8 +5,10 @@ using commands `\maketitle`, `\certificate`, `\declaration` and
 `\abstract` after defining the basic variables `\title`, `\author`,
 `\rollno`, `\degree`, `\department`, `\submissiondate` and a few more.
 
-The boilerplate code is as follows, (also available in
-[`example.tex`](./example.tex)).
+To use, copy [`iitkthesis.cls`](./iitkthesis.cls) and
+[`images/iitk-logo.pdf`](./images/iitk-logo.pdf) to your local folder
+and use the `\documentclass{iiththesis}`, alike the boilerplate code
+as follows, (also available in [`example.tex`](./example.tex)).
 
 ```tex
 \documentclass{iitkthesis}
