@@ -1,0 +1,44 @@
+--- /usr/share/texmf-dist/tex/latex/raleway/raleway.sty.orig	2020-06-07 15:02:18.000000000 +0530
++++ /usr/share/texmf-dist/tex/latex/raleway/raleway.sty	2020-11-28 14:38:45.703032717 +0530
+@@ -77,12 +77,12 @@
+ 		\def\raleway@figurestyle{Lining}
+ 	\fi
+ 	
+-	% Black/Semibold/Bold
++	% Black/SemiBold/Bold
+ 	\ifraleway@extrabold
+ 		\def\raleway@boldstyle{ExtraBold}
+ 	\else
+ 		\ifraleway@semibold
+-			\def\raleway@boldstyle{Semibold}
++			\def\raleway@boldstyle{SemiBold}
+ 		\else
+ 			\ifraleway@black
+ 				\def\raleway@boldstyle{Black}
+@@ -145,7 +145,7 @@
+ 		  BoldItalicFont = *-Bold-Italic ]
+ 		{Raleway}
+ 
+-	% Light/Semibold
++	% Light/SemiBold
+ 	\newfontfamily\ralewaylight
+ 		[ UprightFont    = *-Light ,
+ 		  ItalicFont     = *-Light-Italic ,
+@@ -153,7 +153,7 @@
+ 		  BoldItalicFont = *-SemiBold-Italic ]
+ 		{Raleway}
+ 	
+-	% Light/Semibold
++	% Light/SemiBold
+ 	\newfontfamily\ralewaythin
+ 		[ UprightFont    = *-Thin ,
+ 		  ItalicFont     = *-Thin-Italic ,
+@@ -202,7 +202,7 @@
+ 		\def\raleway@figurestyle{LF}
+ 	\fi
+ 	
+-	% Black/Semibold/Bold
++	% Black/SemiBold/Bold
+ 	\ifraleway@extrabold
+ 		\def\bfseries@sf{eb}
+ 	\else
