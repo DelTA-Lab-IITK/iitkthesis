@@ -52,7 +52,7 @@
 %% Customizing section font
 %% -----------------------------------
 \RequirePackage{sectsty}
-\allsectionsfont{\normalfont\sffamily}
+\allsectionsfont{\sffamily}
 \paragraphfont{\sffamily}
 %% -----------------------------------
 
@@ -149,13 +149,13 @@
 
         by
 
-        \vspace*{\baselineskip}
+        \vspace*{0.2\baselineskip}
         {\sffamily\Large\@author}
 
         \vspace*{2\baselineskip}
         to the\\
-        {\bfseries\sffamily\Large{\iitk@department}}\\
-        {\LARGE\scshape\MakeLowercase{\iitk@institute}}
+        {\sffamily\Large{\iitk@department}}\\
+        {\bfseries\LARGE\scshape\MakeLowercase{\iitk@institute}}
 
         \vspace*{\baselineskip}
         {\Large\iitk@submissiondate}
@@ -341,7 +341,7 @@
 {\vspace{2\baselineskip}}
 {\filleft\fontsize{64}{72}\selectfont\thechapter}
 {\baselineskip}
-{\filleft\sffamily\fontsize{24}{18}\selectfont}
+{\filleft\sffamily\fontsize{28}{18}\selectfont}
 [\titlerule]
 %% -----------------------------------
 
