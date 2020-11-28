@@ -52,7 +52,7 @@
 %% Customizing section font
 %% -----------------------------------
 \RequirePackage{sectsty}
-\allsectionsfont{\normalfont\sffamily}
+\allsectionsfont{\sffamily}
 \paragraphfont{\sffamily}
 %% -----------------------------------
 
@@ -135,7 +135,7 @@
         {\iitk@logo\par}
 
         \vspace*{\baselineskip}
-        {\sffamily\Huge\scshape\MakeLowercase{\@title}}
+        {\sffamily\LARGE\MakeUppercase{\@title}}
 
         \vspace*{2\baselineskip}
         A Thesis Submitted\\
@@ -143,19 +143,19 @@
         for the Degree of
 
         \vspace*{\baselineskip}
-        {\sffamily\huge\scshape\MakeLowercase{\iitk@degree}}
+        {\bfseries\sffamily\large\MakeUppercase{\iitk@degree}}
 
         \vspace*{\fill}
 
         by
 
         \vspace*{\baselineskip}
-        {\sffamily\Large\@author}
+        {\sffamily\large\@author}
 
         \vspace*{2\baselineskip}
         to the\\
-        {\bfseries\sffamily\Large{\iitk@department}}\\
-        {\LARGE\scshape\MakeLowercase{\iitk@institute}}
+        {\sffamily\Large{\iitk@department}}\\
+        {\bfseries\Large\MakeUppercase{\iitk@institute}}
 
         \vspace*{\baselineskip}
         {\Large\iitk@submissiondate}
